@@ -2,9 +2,12 @@ import {Link} from 'react-router-dom'
 
 import React from 'react';
 import './Home.css';
+
+
 const Home = () => {
   return (
     <>
+    
      <div className='main-container'>
      <img src="./images/elderly.webp" alt="" />
       <div className='info'>
@@ -13,11 +16,8 @@ const Home = () => {
       </p>
       <Link to="/signup"><button className='button-1'>Sign Out</button></Link>
       </div>
-  
+      </div>
       
-    
-    </div>
-   
     </>
   )
 }

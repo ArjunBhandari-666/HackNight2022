@@ -1,1 +1,15 @@
-
+.my-button{
+    position: fixed;
+    background:rgb(44, 202, 234); 
+    padding: 0.4rem;
+    border-radius: 50%;
+    right: 0;
+    cursor: pointer;
+    bottom: 0;
+}
+.my-button:hover{
+    transform: scale(106%);
+}
+.my-button>img{
+    width: 4rem;
+}
