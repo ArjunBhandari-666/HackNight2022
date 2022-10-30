@@ -36,11 +36,7 @@ const Navbar = () => {
       .catch((err) => console.log("SignOut Error", err.message));
   };
 
-  {
-    console.log(user);
-    console.log(user);
-    
-  }
+
   const [drop, setDrop] = useState(false);
   const dropMenu = () => {
     if (!drop) {
@@ -59,15 +55,18 @@ const Navbar = () => {
             <li>
               <NavLink to="/contact">CONTACT US</NavLink>
             </li>
+            <li>
+              <NavLink to="/dashboard">DASHBOARD</NavLink>
+            </li>
           </ul>
         </div>
         <button className="button">
           <div
             className="container"
-            onClick={user?signInWithGoogle:handleClick}
+            onClick={handleClick}
           >
             
-            {!user?"Logout":"Login"}
+            Logout
             <FiLogIn />
           </div>
         </button>

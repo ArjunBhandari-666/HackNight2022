@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import Login from './components/Authentication/Login/Login';
 import Signup from './components/Authentication/Signup/Signup'
+import Dashboard from './components/Dashboard/Dashboard';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
       <Route exact path="/contact" element={<Contact />}/>
       <Route exact path="/login" element={<Login />} />
       <Route exact path="/signup" element={<Signup />} />
+      <Route exact path="/dashboard" element={<Dashboard />} />
       </Routes>
       </ScrollToTop>
       </BrowserRouter>
