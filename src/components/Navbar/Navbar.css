@@ -5,9 +5,7 @@
   justify-content: space-between;
   padding: 1rem;
   align-items: center;
-  background: rgb(203, 239, 247);
-  /* background: transparent; */
-  /* backdrop-filter: blur(5px); */
+  background: rgb(255, 255, 255);
   position: fixed;
   z-index: 500;
 }
@@ -50,7 +48,7 @@
   font-size: 1rem;
 }
 img {
-  /* width: 15rem; */
+
   height: 100%;
 }
 
@@ -75,10 +73,10 @@ img {
   }
   .close {
     display: block;
-    /* width: 1rem; */
+  
     font-size: 1.5rem;
     transition: all ease 0.2s;
-    color: var(--color-db);
+    color: var(--color-black);
     cursor: pointer;
   }
   .hamburger {
@@ -86,15 +84,11 @@ img {
     display: block;
     font-size: 1.5rem;
     transition: all ease 0.2s;
-    color: var(--color-db);
+    color: var(--color-black);
     cursor: pointer;
   }
-  .hamburger:hover {
-    color: var(--color-blue);
-  }
-  .close:hover {
-    color: var(--color-blue);
-  }
+
+
   .mob-items {
     display: flex;
     align-items: center;

@@ -1,26 +1,24 @@
 .main-container{
     display: flex;
     height: 100vh;
-    /* flex-direction: row; */
+    
     width: 100vw;
-    background:linear-gradient(to top,#49caea,#6dd5ed4a);
-    /* opacity: 0.9; */
-    /* align-items: center; */
+
+  
     justify-content: center;
     padding: 4rem 0rem 0rem 0rem;
-    /* flex-wrap: wrap; */
+
 }
 
 
-.main-container img{
-    width: 60%;
-    /* height: 100%; */
+.main-container>img{
+    width:60vw;
+   
 }
 
 .info{
     padding: 1rem;
-    /* margin-top: 5rem; */
-    /* color: rgba(29, 20, 20, 0.879); */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,10 +26,13 @@
     font-size: 1.5rem;
 }
 .info>h1{
-    color: rgb(31, 146, 157);
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(8, 8, 8);
     padding-bottom: 0.7rem;
 }
 .info>p{
+    font-family:"roboto";
     color: rgb(4, 4, 4);
     align-items: center;
  
@@ -39,32 +40,31 @@
 
 .button-1{
     width: 7rem;
-    /* height: 2rem; */
     padding:0.7rem;
     margin-top: 0.7rem;
     font-size: 1rem;
     border-radius: .85rem;
-    background: var(--color-primary);
+    background: var(--color-white);
     transition: all ease-in-out 0.3s;
-    border: 2px solid var(--color-db);
+    border: 2px solid var(--color-black);
     font-weight: 600;
    
 }
 
 .button-1:hover{
   
-    background: var(--color-white);
-    border: 2px var(--color-db) solid;
+    background-color: rgb(214, 241, 246);
     font-weight: 600;
+    box-shadow: 2px 4px 4px rgb(9, 12, 13);
+    /* border: 2px solid var(--color-db); */
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
 .main-container{
     display: flex;
     flex-direction: column;
 }
 .main-container img{
-    /* padding-top: 5rem; */
     width: 100%;
     height: 50%;
     justify-content: start;
