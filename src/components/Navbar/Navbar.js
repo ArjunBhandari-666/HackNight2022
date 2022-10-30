@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {NavLink} from 'react-router-dom'
 import {FiLogIn} from 'react-icons/fi'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {AiOutlineClose} from 'react-icons/ai'
@@ -21,8 +22,8 @@ const Navbar = () => {
       <div className='nav-links'>
      <div className={`nav-items ${drop?'mob-items':''}`}>
       <ul>  
-        <a href='/'><li>ABOUT</li></a>
-        <a href='/'><li>CONTACT US</li></a>
+      <li><NavLink to='/'>HOME</NavLink></li>
+      <li><NavLink to='/contact'>CONTACT US</NavLink></li>
      
       </ul>
       </div>
