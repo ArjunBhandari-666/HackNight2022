@@ -9,19 +9,19 @@ const Contact = () => {
       <div className='info'>
         <h1>Contact Details</h1>
       <div className='contact-card'>
-        <h2><FaUserAlt/> Arjun R Bhandari</h2>
-        <span><IoCall/>+91 99999999999</span>
-        <span><AiFillMail/>arjunbhandari@gmail.com</span>
+        <div><FaUserAlt className='react-icon'/>Arjun R Bhandari</div>
+        <div><IoCall className='react-icon'/>+91 7588703850</div>
+        <div><AiFillMail className='react-icon'/>arjunbhandari@gmail.com</div>
       </div>
       <div className='contact-card'>
-        <h2><FaUserAlt/> Shreejesh J Ballal</h2>
-        <span><IoCall/>+91 99999999999</span>
-        <span><AiFillMail/>shreejeshballal@gmail.com</span>
+        <div><FaUserAlt className='react-icon'/>Shreejesh J Ballal</div>
+        <div><IoCall className='react-icon'/>+91 8660437070</div>
+        <div><AiFillMail className='react-icon'/>shreejeshballal@gmail.com</div>
       </div>
       <div className='contact-card'>
-        <h2><FaUserAlt/> Chiranth H Chiplunkar</h2>
-        <span><IoCall/>+91 99999999999</span>
-        <span><AiFillMail/>chiranth@gmail.com</span>
+        <div><FaUserAlt className='react-icon'/>Chiranth H Chiplunkar</div>
+        <div><IoCall className='react-icon'/>+91 8867245830</div>
+        <div><AiFillMail className='react-icon'/>chiranth@gmail.com</div>
       </div>
       </div>
  

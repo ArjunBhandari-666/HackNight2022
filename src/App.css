@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .my-button{
     position: fixed;
     background:rgb(44, 202, 234); 
-    padding: 0.4rem;
+    padding: 0.5rem;
     border-radius: 50%;
     right: 0;
-    cursor: pointer;
     bottom: 0;
+    cursor: pointer;
+    margin: 1rem;
+    transition: 0.3s ease all;
 }
 .my-button:hover{
     transform: scale(106%);
+    box-shadow: 2px 4px 10px rgb(3, 78, 119);
 }
 .my-button>img{
-    width: 4rem;
+    width: 3rem;
 }

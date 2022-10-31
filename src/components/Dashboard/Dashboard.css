@@ -8,13 +8,21 @@
 }
 
 .dashboard>h1{
-    font-size: 3rem;
-    color: rgb(0, 0, 0);
+    font-size: 3.5rem;
+    color: rgb(22, 62, 194);
+    font-family: 'Montserrat';
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.4s ease all;
+}
+.dashboard>h1:hover{
+    color: rgb(93, 82, 244);
+    
 }
 
 .dashboard-container{
     width: 100%;
-    padding: 2rem;
+    padding: 1rem 2rem 2rem 2rem;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -26,18 +34,26 @@
     border: 3px solid black;
     padding: 1rem;
     font-size: 1.5rem;
-    height: 15rem;
-    width: 20rem;
+    height: 30rem;
+    width: 24rem;
     display: flex;
     flex-direction: column;
     background: rgba(103, 197, 248, 0.555);
+    color: rgba(0, 0, 0, 0.864);
     border-radius: 1rem;
-   
+    gap: 0.8rem;
     transition: all ease 0.3s;
 }
 .card:hover{
     transform: scale(105%);
-    box-shadow: 2px 4px 6px rgb(101, 103, 102);
+    box-shadow: 3px 5px 8px rgb(40, 43, 41);
+}
+
+.card p>span{
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    color: rgb(7, 4, 105);
 }
 
 

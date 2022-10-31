@@ -1,47 +1,56 @@
 .main-container{
     display: flex;
-    height: 100vh;
-    
+    height: 100vh; 
     width: 100vw;
-
-  
     justify-content: center;
-    padding: 4rem 0rem 0rem 0rem;
+    padding: 3rem 0rem 0rem 0rem;
 
 }
 
-
 .main-container>img{
-    width:60vw;
+    width:55vw;
    
 }
 
 .info{
-    padding: 1rem;
-
+    padding: 0rem 1rem 1rem 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .info>h1{
     text-transform: uppercase;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(8, 8, 8);
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(16, 44, 115, 0.767);
     padding-bottom: 0.7rem;
+    line-height: 1.1;
+    font-size: 3.8rem;
+    transition: all ease 0.3s;
+    text-shadow: 1px 1px 1px;
+    cursor: pointer;
+    width: 100%;
+   
+}
+
+.info>h1:hover{
+   text-shadow: 1px 1px 1px black;
 }
 .info>p{
     font-family:"roboto";
-    color: rgb(4, 4, 4);
+    font-size: 1.3rem;
+    line-height: 1.3;
+    color: rgba(4, 4, 4, 0.707);
     align-items: center;
+    padding-right: 5rem;
  
 }
 
 .button-1{
     width: 7rem;
     padding:0.7rem;
-    margin-top: 0.7rem;
+    margin-top:2rem;
     font-size: 1rem;
     border-radius: .85rem;
     background: var(--color-white);
@@ -52,7 +61,6 @@
 }
 
 .button-1:hover{
-  
     background-color: rgb(214, 241, 246);
     font-weight: 600;
     box-shadow: 2px 4px 4px rgb(9, 12, 13);
@@ -75,5 +83,13 @@
     text-align: center;
     position: static;
 
+}
+.info>h1{
+    padding: 1rem;
+    
+}
+.info>p{
+    padding: 0;
+    
 }
 }
